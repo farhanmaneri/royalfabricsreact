@@ -1,8 +1,7 @@
 
 .address{
-  display: flex;
-  /* justify-content: flex-start; */
- 
+ background-color: black;
+ color: white;
   
 }
 .cardContainer{
