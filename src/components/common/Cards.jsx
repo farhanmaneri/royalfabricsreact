@@ -5,19 +5,22 @@ const Cards = (props) => {
 
   return (
     <>
-     
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={props.photo} />
-              <Card.Body>
-                <Card.Title>{props.title}</Card.Title>
-                {/* <Card.Text>
+      <div className='cards'>
+        <div className='card'>
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src={props.photo} />
+            <Card.Body>
+              <Card.Title>{props.title}</Card.Title>
+              {/* <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
     </Card.Text> */}
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-          
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </div>
+      </div>
+
 
     </>
   )

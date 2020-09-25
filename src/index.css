@@ -1,11 +1,34 @@
 
 .address{
- background-color: black;
- color: white;
-  
-}
-.cardContainer{
+  background-color: black;
+  color: white;
+   
+ }
+ .cardContainer{
+   display: flex;
+   
+ 
+ }
+ .cards{
+ display: inline-flex;
+ /* align-items: center; */
+ margin: 10px;
+ 
+ }
+ /* .card{
   display: flex;
-  justify-content: space-around;
-
-}
+  justify-content: space-between;
+ } */
+ .active_class{
+ 
+ color: black;
+ border-bottom: 2px solid red;
+ }
+ 
+ .btn{
+   margin: 2px ;
+ 
+ }
+ .navBtn{
+   color: black;
+ }
