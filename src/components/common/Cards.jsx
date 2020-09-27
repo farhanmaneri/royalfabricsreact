@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Button, Row, Col } from 'react-bootstrap'
-
+import {NavLink} from 'react-router-dom'
 const Cards = (props) => {
 
   return (
@@ -15,7 +15,8 @@ const Cards = (props) => {
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
     </Card.Text> */}
-              <Button variant="primary">Go somewhere</Button>
+              {/* <Button variant="primary">Go somewhere</Button> */}
+              <button className='btn btn-primary'><NavLink exact activeClassName='active_class navBtn' to='/alkaram'>Al-Karam</NavLink></button>
             </Card.Body>
           </Card>
         </div>

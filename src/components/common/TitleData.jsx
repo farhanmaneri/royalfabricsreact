@@ -1,9 +1,9 @@
 import React from 'react'
 
 
-const TileData = [
+const TitleData = [
     {
-      imgsrc : "",
+    imgsrc :  "",
       title: 'Al-karam'
     },
     {
@@ -28,4 +28,4 @@ const TileData = [
     }
 ]
 
-export default TileData;
+export default TitleData;
