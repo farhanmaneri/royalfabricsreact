@@ -1,29 +1,28 @@
 import React from 'react'
 
-
 const TitleData = [
     {
-    imgsrc :  "",
+    imgsrc :  '../../assests/images/1slide.jpg',
       title: 'Al-karam'
     },
     {
-      imgsrc : "",
+      imgsrc : '../../assests/images/1slide.jpg',
       title: 'Grace'
     },
     {
-      imgsrc : "",
+      imgsrc: '../../assests/images/1slide.jpg',
       title: 'Gul Ahmad'
     },
     {
-      imgsrc : "",
+      imgsrc : '../../assests/images/1slide.jpg',
       title: 'Dynasty'
     },
     {
-      imgsrc : "",
+      imgsrc : '../../assests/images/1slide.jpg',
       title: 'Shabbir'
     },
     {
-      imgsrc : "",
+      imgsrc : '../../assests/images/1slide.jpg',
       title: 'JNG'
     }
 ]
