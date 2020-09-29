@@ -7,10 +7,12 @@ import { Container } from 'react-bootstrap'
 const Alkaram = () => {
     return (
 <>
+<Container className='heading' fluid><h1>Al-Karam </h1></Container> 
 <Container className='cardContainer' >
     { ProductsData.map((val) => {
                 return (
                     <div>
+                       
                         <ProductsCard
                             photo={val.imgsrc}
                             title={val.title}
@@ -28,6 +30,7 @@ const Alkaram = () => {
 const GulAhmed = () => {
     return (
 <>
+<Container className='heading' fluid><h1>Gul Ahmed </h1></Container>
 <Container className='cardContainer' >
     { ProductsData.map((val) => {
                 return (

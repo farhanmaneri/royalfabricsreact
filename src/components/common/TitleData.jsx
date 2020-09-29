@@ -2,29 +2,37 @@ import React from 'react'
 
 const TitleData = [
     {
-    imgsrc : "",
+    imgsrc : require('../../assets/cardimages/Alkarm.jpg'),
       title: 'Al-karam'
     },
     {
-      imgsrc :"",
+      imgsrc : require('../../assets/cardimages/Bannu woolen.JPG'),
       title: 'Grace'
     },
     {
-      imgsrc:"",
+      imgsrc:require('../../assets/cardimages/Dyansty.JPG'),
       title: 'Gul Ahmad'
     },
     {
-      imgsrc :"",
+      imgsrc :require('../../assets/cardimages/gntex.JPG'),
       title: 'Dynasty'
     },
     {
-      imgsrc :"",
+      imgsrc :require('../../assets/cardimages/lawr.JPG'),
       title: 'Shabbir'
     },
     {
-      imgsrc :"",
+      imgsrc :require('../../assets/cardimages/Narkin.JPG'),
+      title: 'JNG'
+    },
+    {
+      imgsrc :require('../../assets/cardimages/timetex.jpg'),
+      title: 'JNG'
+    },
+    {
+      imgsrc :require('../../assets/cardimages/Up Time.JPG'),
       title: 'JNG'
     }
-]
+  ]
 
 export default TitleData;

@@ -1,23 +1,24 @@
 
-.address{
-  background-color: black;
-  color: white;
-   
- }
- 
 
  .cardContainer{
  display: flex;
  flex-wrap: wrap;
  justify-content: space-around;
  margin: 10px;
- background: silver;
+ background: rgb(223, 249, 250);
 
  
  }
  .card{
    margin: 10px;
-   align-items: center;
+   align-items: flex-start;
+   
+ }
+ .heading{
+   text-align: center;
+   background: red;
+   color: white;
+   margin-top: 5px;
  }
  
  .active_class{
@@ -25,12 +26,16 @@
  color: black;
  border-bottom: 2px solid red;
  }
+ 
  /* Nav.Link styling*/
  .nav-link{
   padding: 5px !important;
    font-size: bold !important;
+  
  }
  .address{
+   background: black;
+   color: white;
    text-align: center;
     padding: 5px;
  }

@@ -14,7 +14,8 @@ const Cards = (props) => {
       the card's content.
     </Card.Text> */}
               {/* <Button variant="primary">Go somewhere</Button> */}
-              <button className='btn btn-primary'><NavLink exact activeClassName='active_class navBtn' to='/alkaram'>Al-Karam</NavLink></button>
+              <button variant='secondary'>
+  <NavLink exact activeClassName='active_class' to='/alkaram'>See More</NavLink></button>
             </Card.Body>
           </Card>
           

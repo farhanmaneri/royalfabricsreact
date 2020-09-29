@@ -10,8 +10,8 @@ return(
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
       
-      <NavLink exact activeClassName='active_class nav-link' to='/'>Home</NavLink>
-<NavLink exact activeClassName='active_class nav-link' to='/products'>Products</NavLink>
+      <button variant='secondary'><NavLink exact activeClassName='active_class nav-link' to='/'>Home</NavLink></button>
+      <button variant='secondary'><NavLink exact activeClassName='active_class nav-link' to='/products'>Products</NavLink></button>
       
       {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
