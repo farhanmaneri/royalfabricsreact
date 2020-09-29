@@ -1,7 +1,8 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import {NavLink} from 'react-router-dom'
-const Cards = (props) => {
+
+const ProductsCard = (props) => {
 
   return (
     <>
@@ -9,10 +10,7 @@ const Cards = (props) => {
             <Card.Img variant="top" src={props.photo} />
             <Card.Body>
               <Card.Title>{props.title}</Card.Title>
-              {/* <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text> */}
+              <Card.Text> {props.price}    </Card.Text>
               {/* <Button variant="primary">Go somewhere</Button> */}
               <button className='btn btn-primary'><NavLink exact activeClassName='active_class navBtn' to='/alkaram'>Al-Karam</NavLink></button>
             </Card.Body>
@@ -23,4 +21,4 @@ const Cards = (props) => {
 
 }
 
-export default Cards;
+export default ProductsCard;

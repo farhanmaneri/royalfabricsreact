@@ -1,41 +1,48 @@
 import React from 'react'
-import TitleData from './TitleData'
-import Cards from './Cards'
+import ProductsData from './ProductsData'
+
+import ProductsCard from './ProductsCard'
+import { Container } from 'react-bootstrap'
 
 const Alkaram = () => {
     return (
 <>
-
-    { TitleData.map((val) => {
+<Container className='cardContainer' >
+    { ProductsData.map((val) => {
                 return (
                     <div>
-                        <Cards
+                        <ProductsCard
                             photo={val.imgsrc}
                             title={val.title}
+                            price={val.rate}
                         />
                    </div> 
                 )
             })
         }
+
+</Container>
 </>
     )
 }
-
 const GulAhmed = () => {
     return (
 <>
-
-    { TitleData.map((val) => {
+<Container className='cardContainer' >
+    { ProductsData.map((val) => {
                 return (
                     <div>
-                        <Cards
+                        <ProductsCard
                             photo={val.imgsrc}
                             title={val.title}
+                            price={val.rate}
                         />
                    </div> 
                 )
             })
         }
+
+</Container>
 </>
     )
 }

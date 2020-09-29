@@ -17,6 +17,7 @@
  }
  .card{
    margin: 10px;
+   align-items: center;
  }
  
  .active_class{
@@ -28,5 +29,9 @@
  .nav-link{
   padding: 5px !important;
    font-size: bold !important;
+ }
+ .address{
+   text-align: center;
+    padding: 5px;
  }
  
