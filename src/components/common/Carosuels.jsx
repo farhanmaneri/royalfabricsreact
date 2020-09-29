@@ -10,7 +10,7 @@ return(
       className="d-block w-100"
       src={require('../../assets/images/1slide.jpg')  }
       alt="First slide"
-      style={{height:500}}
+      style={{height:400}}
     />
     {/* <Carousel.Caption>
       <h3>First slide label</h3>
@@ -22,7 +22,7 @@ return(
       className="d-block w-100"
       src={require('../../assets/images/2slide.jpg')  }
       alt="Third slide"
-      style={{height:500}}
+      style={{height:400}}
     />
 
     {/* <Carousel.Caption>
@@ -35,7 +35,7 @@ return(
       className="d-block w-100"
       src={require('../../assets/images/3slide.jpg')  }
       alt="Third slide"
-      style={{height:500}}
+      style={{height:400}}
     />
 
     {/* <Carousel.Caption>

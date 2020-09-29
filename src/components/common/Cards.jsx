@@ -5,10 +5,10 @@ const Cards = (props) => {
 
   return (
     <>
-      <div className='cards'>
-        <div className='card'>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={require(props.photo)} />
+     
+        
+          <Card style={{ width: '18rem' }} >
+            <Card.Img variant="top" src={props.photo} />
             <Card.Body>
               <Card.Title>{props.title}</Card.Title>
               {/* <Card.Text>
@@ -19,11 +19,8 @@ const Cards = (props) => {
               <button className='btn btn-primary'><NavLink exact activeClassName='active_class navBtn' to='/alkaram'>Al-Karam</NavLink></button>
             </Card.Body>
           </Card>
-        </div>
-      </div>
-
-
-    </>
+          
+      </>
   )
 
 }

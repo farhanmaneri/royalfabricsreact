@@ -10,15 +10,16 @@ return(
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
       
-      <button className='btn btn-primary'><NavLink exact activeClassName='active_class navBtn' to='/'>Home</NavLink></button>
-      <button className='btn btn-primary'><NavLink exact activeClassName='active_class navBtn' to='/aboutus'>About Us</NavLink></button>
-      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+      <NavLink exact activeClassName='active_class nav-link' to='/'>Home</NavLink>
+<NavLink exact activeClassName='active_class nav-link' to='/products'>Products</NavLink>
+      
+      {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
+      </NavDropdown> */}
     </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />

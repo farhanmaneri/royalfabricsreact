@@ -4,31 +4,29 @@
   color: white;
    
  }
+ 
+
  .cardContainer{
-   display: flex;
-   
- 
- }
- .cards{
- display: inline-flex;
- /* align-items: center; */
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
  margin: 10px;
+ background: silver;
+
  
  }
- /* .card{
-  display: flex;
-  justify-content: space-between;
- } */
+ .card{
+   margin: 10px;
+ }
+ 
  .active_class{
  
  color: black;
  border-bottom: 2px solid red;
  }
- 
- .btn{
-   margin: 2px ;
- 
+ /* Nav.Link styling*/
+ .nav-link{
+  padding: 5px !important;
+   font-size: bold !important;
  }
- .navBtn{
-   color: black;
- }
+ 

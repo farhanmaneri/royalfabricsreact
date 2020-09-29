@@ -5,7 +5,7 @@ import Navibar from '../components/common/Navibar'
 import Location from '../components/common/Location'
 import Address from '../components/common/Address'
 import TitleData from '../components/common/TitleData'
-import { Card, Button, Row, Col } from 'react-bootstrap'
+import { Card, Button, Container, Row, Col } from 'react-bootstrap'
 
 const Home = () => {
 
@@ -14,28 +14,29 @@ const Home = () => {
         <>
             <Navibar />
             <Carosuels />
-
-            <div>
+            <div className='cardContainer'>
                 {TitleData.map((item, index) => {
                     return (
-                        <Cards
+                       
+                          <Cards
                             photo={item.imgsrc}
                             title={item.title}
                         />
+                   
                     )
                 })}
-
-            </div>
-            <container>
+</div>
+            
+            <Container fluid>
                 <Row>
-                    <Col sm={6} xs={12} md={6} lg={6}>
+                    <Col sm={6} xs={12} md={6} lg={6} xl={6}>
                         <div className="address"><Address /></div>
                     </Col>
-                    <Col sm={6} xs={12} md={6} lg={6}> 
+                    <Col sm={6} xs={12} md={6} lg={6} xl={6}> 
                             <div className= 'location'><Location /></div>
                     </Col>
                 </Row>
-            </container>
+            </Container>
         </>
     )
 }
