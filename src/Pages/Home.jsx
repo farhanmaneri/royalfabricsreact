@@ -6,14 +6,15 @@ import Location from '../components/common/Location'
 import Address from '../components/common/Address'
 import TitleData from '../components/common/TitleData'
 import { Card, Button, Container, Row, Col } from 'react-bootstrap'
-
+import Categories from '../components/common/Categories'
 const Home = () => {
 
 
     return (
         <>
             <Navibar />
-            <Carosuels />
+            {/* <Carosuels /> */}
+            <Categories/>
             <div className='cardContainer'>
                 {TitleData.map((item, index) => {
                     return (
@@ -37,6 +38,7 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
+            
         </>
     )
 }
