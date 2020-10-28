@@ -5,13 +5,15 @@
  flex-wrap: wrap;
  justify-content: space-around;
  margin: 10px;
- background: rgb(223, 249, 250);
+ background: lightgray;
+ margin: 5%;
+ 
 
  
  }
  .card{
-   margin: 10px;
-   align-items: flex-start;
+   margin: 5px;
+   /* align-items: flex-start; */
    
  }
  .heading{
@@ -38,6 +40,7 @@
    color: white;
    text-align: center;
     padding: 5px;
+    margin-bottom: 10px;
  }
  .icons{
    display: flex;

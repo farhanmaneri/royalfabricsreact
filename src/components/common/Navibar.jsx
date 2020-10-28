@@ -5,7 +5,7 @@ const Navibar = ()=>{
 return(
     <>
     <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand href="#home">Royal Fabrics</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
@@ -25,6 +25,7 @@ return(
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
       <Button variant="outline-success">Search</Button>
     </Form>
+      <Button variant="outline-success" style={{color:'black', margin:'5px 10px' }}>LogIn</Button>
   </Navbar.Collapse>
 </Navbar>
     </>

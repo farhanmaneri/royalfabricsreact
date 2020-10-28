@@ -4,13 +4,14 @@ import { Carousel } from 'react-bootstrap';
 const Carosuels = ()=>{
 return(
 <>
+<div style={{border:'3px solid black',margin:'10px'}}>
 <Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100"
       src={require('../../assets/images/1slide.jpg')  }
       alt="First slide"
-      style={{height:400}}
+      style={{height:300}}
     />
     {/* <Carousel.Caption>
       <h3>First slide label</h3>
@@ -22,7 +23,7 @@ return(
       className="d-block w-100"
       src={require('../../assets/images/2slide.jpg')  }
       alt="Third slide"
-      style={{height:400}}
+      style={{height:300}}
     />
 
     {/* <Carousel.Caption>
@@ -35,7 +36,7 @@ return(
       className="d-block w-100"
       src={require('../../assets/images/3slide.jpg')  }
       alt="Third slide"
-      style={{height:400}}
+      style={{height:300}}
     />
 
     {/* <Carousel.Caption>
@@ -44,7 +45,7 @@ return(
     </Carousel.Caption> */}
   </Carousel.Item>
 </Carousel>
-
+</div>
 </>
 
 )

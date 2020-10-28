@@ -13,32 +13,31 @@ const Home = () => {
     return (
         <>
             <Navibar />
-            {/* <Carosuels /> */}
-            <Categories/>
+            <Carosuels />
+            {/* <Categories/> */}
             <div className='cardContainer'>
                 {TitleData.map((item, index) => {
                     return (
-                       
-                          <Cards
+
+                        <Cards
                             photo={item.imgsrc}
                             title={item.title}
                         />
-                   
                     )
                 })}
-</div>
-            
+            </div>
+
             <Container fluid>
                 <Row>
                     <Col sm={6} xs={12} md={6} lg={6} xl={6}>
                         <div className="address"><Address /></div>
                     </Col>
-                    <Col sm={6} xs={12} md={6} lg={6} xl={6}> 
-                            <div className= 'location'><Location /></div>
+                    <Col sm={6} xs={12} md={6} lg={6} xl={6}>
+                        <div className='location'><Location /></div>
                     </Col>
                 </Row>
             </Container>
-            
+
         </>
     )
 }
