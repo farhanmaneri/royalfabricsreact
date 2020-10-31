@@ -5,7 +5,7 @@ const Cards = (props) => {
 
   return (
     <>
-        <Card style={{ width: '15rem' }} >
+        <Card style={{ width: '18rem' }} >
       <div style={{border:'1px solid gray',borderRadius:'2px'}}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
 

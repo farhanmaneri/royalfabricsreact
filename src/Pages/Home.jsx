@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Carosuels from '../components/common/Carosuels'
 import Cards from '../components/common/Cards'
@@ -7,6 +8,9 @@ import Address from '../components/common/Address'
 import TitleData from '../components/common/TitleData'
 import { Card, Button, Container, Row, Col } from 'react-bootstrap'
 import Categories from '../components/common/Categories'
+import AddSection from '../components/common/AddSection'
+
+
 const Home = () => {
 
 
@@ -14,7 +18,9 @@ const Home = () => {
         <>
             <Navibar />
             <Carosuels />
+            
             {/* <Categories/> */}
+            <AddSection/>
             <div className='cardContainer'>
                 {TitleData.map((item, index) => {
                     return (
