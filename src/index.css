@@ -1,13 +1,15 @@
 
 
  .cardContainer{
+  
  display: flex;
  flex-wrap: wrap;
  justify-content: space-around;
+ flex-direction: row;
  border-radius: 5px;
  background: lightgray;
  margin: 2% 5%;
- 
+ width: fit-content;
  }
  .login{
    display: flex;
@@ -65,6 +67,10 @@
    font-size: bold !important;
   
  } */
+ .product_view{
+   display: flex;
+   flex-direction: column;
+ }
  .address{
    background: black;
    color: white;

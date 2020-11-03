@@ -4,11 +4,14 @@ import ProductsData from './ProductsData'
 import ProductsCard from './ProductsCard'
 import { Container } from 'react-bootstrap'
 
-const Alkaram = () => {
+const Items = () => {
     return (
 <>
-<Container className='heading' fluid><h1>Al-Karam </h1></Container> 
-<Container className='cardContainer' >
+{ ProductsData.map((val)=>{
+    return(
+        <>
+        <Container className='cardContainer' >
+<Container className='heading' fluid><h1>{val.product} </h1></Container> 
     { ProductsData.map((val) => {
                 return (
                     <div>
@@ -25,31 +28,35 @@ const Alkaram = () => {
 
 </Container>
 </>
+    )})}
+    </>
     )
+  
 }
-const GulAhmed = () => {
-    return (
-<>
-<Container className='heading' fluid><h1>Gul Ahmed </h1></Container>
-<Container className='cardContainer' >
-    { ProductsData.map((val) => {
-                return (
-                    <div>
-                        <ProductsCard
-                            photo={val.imgsrc}
-                            title={val.title}
-                            price={val.rate}
-                        />
-                   </div> 
-                )
-            })
-        }
+// const GulAhmed = () => {
+//     return (
+// <>
 
-</Container>
-</>
-    )
-}
-export { 
-    GulAhmed,
-    Alkaram
+// <Container className='cardContainer' >
+// <Container className='heading' fluid><h1>Gul Ahmed </h1></Container>
+//     { ProductsData.map((val) => {
+//                 return (
+//                     <div>
+//                         <ProductsCard
+//                             photo={val.imgsrc}
+//                             title={val.title}
+//                             price={val.rate}
+//                         />
+//                    </div> 
+//                 )
+//             })
+//         }
+
+// </Container>
+// </>
+//     )
+// }
+export  { 
+    // GulAhmed,
+    Items
 };

@@ -1,14 +1,17 @@
 import React from 'react'
 
 import Navibar from '../components/common/Navibar'
-import {Alkaram, GulAhmed} from '../components/common/Items'
+import { Items} from '../components/common/Items'
 
-const Products = ()=>{
-    return(
+const Products = () => {
+    return (
         <>
-        <Navibar/>
-        <Alkaram />
-        <GulAhmed/>
+            <Navibar />
+            <div className='product_view'>
+                <div style={{margin:'5px'}}>
+                    <Items />
+                </div>
+</div>
         </>
     )
 }
