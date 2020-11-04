@@ -33,30 +33,8 @@ const Items = () => {
     )
   
 }
-// const GulAhmed = () => {
-//     return (
-// <>
 
-// <Container className='cardContainer' >
-// <Container className='heading' fluid><h1>Gul Ahmed </h1></Container>
-//     { ProductsData.map((val) => {
-//                 return (
-//                     <div>
-//                         <ProductsCard
-//                             photo={val.imgsrc}
-//                             title={val.title}
-//                             price={val.rate}
-//                         />
-//                    </div> 
-//                 )
-//             })
-//         }
-
-// </Container>
-// </>
-//     )
-// }
 export  { 
-    // GulAhmed,
+    
     Items
 };

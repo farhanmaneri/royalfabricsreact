@@ -11,6 +11,7 @@
  margin: 2% 5%;
  width: fit-content;
  }
+
  .login{
    display: flex;
    justify-content: center;
@@ -72,11 +73,20 @@
    flex-direction: column;
  }
  .address{
-   background: black;
-   color: white;
+   background: lightgray;
+   color: red;
    text-align: center;
     padding: 5px;
     margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+ .footer{
+   border: 1px solid black;
+   padding-top: 10px;
+   margin: 5px;
+   border-radius: 5px;
+   background: black;
  }
  .icons{
    display: flex;
