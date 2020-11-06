@@ -11,7 +11,7 @@ const Items = () => {
     return(
         <>
         <Container className='cardContainer' >
-<Container className='heading' fluid><h1>{val.product} </h1></Container> 
+<Container className='heading' fluid><h3>{val.product} </h3></Container> 
     { ProductsData.map((val) => {
                 return (
                     <div>

@@ -22,8 +22,7 @@ const Home = () => {
             <Carosuels />
             <AddSection />
             <MainCards />
-
-           <Footer/>
+            <Footer />
 
         </>
     )
