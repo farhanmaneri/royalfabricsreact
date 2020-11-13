@@ -10,6 +10,7 @@
  background: lightgray;
  margin: 2% 5%;
  width: fit-content;
+ 
  }
 
  .login{
@@ -71,6 +72,7 @@
  .product_view{
    display: flex;
    flex-direction: column;
+   
  }
  .address{
    background: lightgray;

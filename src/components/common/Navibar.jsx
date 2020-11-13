@@ -7,7 +7,8 @@ import { ShoppingCart } from '@material-ui/icons';
 const Navibar = ()=>{
 return(
     <>
-    <Navbar bg="light" expand="lg">
+  
+    <Navbar bg="light" expand="lg" style={{position:'fixed', marginTop:0, zIndex:'1', width:'100%'}} >
   <Navbar.Brand href="#home">Royal Fabrics</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
